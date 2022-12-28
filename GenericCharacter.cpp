@@ -142,17 +142,17 @@ Knight::Knight(const int hpUp, const int fsl, const int ssl, const int tsl, cons
 
 std::wstring Knight::GetFirstSkillName() const
 {
-    return(L"Слабый удар мечем");
+    return(L"РЎР»Р°Р±С‹Р№ СѓРґР°СЂ РјРµС‡РѕРј");
 }
 
 std::wstring Knight::GetSecondSkillName() const
 {
-    return(L"Блокирование щитом");
+    return(L"???????????? ?????");
 }
 
 std::wstring Knight::GetThirdSkillName() const
 {
-    return(L"Контр удар");
+    return(L"????? ????");
 }
 
 void Knight::TakeDamage(int physicalDamage, int magicalDamage)
@@ -249,17 +249,17 @@ Withard::Withard(const int hpUp, const int fsl, const int ssl, const int tsl, st
 
 std::wstring Withard::GetFirstSkillName() const
 {
-    return(L"Огненый шар");
+    return(L"??????? ???");
 }
 
 std::wstring Withard::GetSecondSkillName() const
 {
-    return(L"Восстановление");
+    return(L"??????????????");
 }
 
 std::wstring Withard::GetThirdSkillName() const
 {
-    return(L"Дыхание огня");
+    return(L"??????? ????");
 }
 
 void Withard::TakeDamage(int physicalDamage, int magicalDamage)
@@ -335,17 +335,17 @@ Assasin::Assasin(const int hpUp, const int fsl, const int ssl, const int tsl, co
 
 std::wstring Assasin::GetFirstSkillName() const
 {
-    return(L"Удар кинжалом");
+    return(L"???? ????????");
 }
 
 std::wstring Assasin::GetSecondSkillName() const
 {
-    return(L"Исчезновение");
+    return(L"????????????");
 }
 
 std::wstring Assasin::GetThirdSkillName() const
 {
-    return(L"Отравленный клинок");
+    return(L"??????????? ??????");
 }
 
 void Assasin::TakeDamage(int physicalDamage, int magicalDamage)
